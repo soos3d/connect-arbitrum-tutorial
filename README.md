@@ -9,11 +9,11 @@
 
 # Particle Connect, Account Abstraction SDK, Next.js, & ethers V6 on the Moonbeam Chain
 
-⚡️ Basic demo application using `@particle-network/connectkit` and `@particle-network/aa` to initiate social login and send transactions via an account abstraction smart account on the [Moonbeam Chain](https://moonbeam.network/)
+⚡️ Basic demo application using `@particle-network/connectkit` and `@particle-network/aa` to initiate social login and send transactions via an account abstraction smart account on the [Moonbeam Chain](https://moonbeam.network/).
 
 > Note that Account Abstraction is included within the new `connectkit` package. `@particle-network/aa` is required when using an EIP 1193 provider like ehter.js.
 
-This app allows you to log in using social logins and interact with various testnets by displaying account information and sending a gasless transfer transaction to an address you can input in the UI.
+This app allows you to log in using social logins and interact with Moonbeam by displaying account information and sending a gasless transfer transaction to an address you can input in the UI.
 
 Built using:
 
