@@ -7,13 +7,13 @@
   </h3>
 </div>
 
-# Particle Connect, Account Abstraction SDK, Next.js, & ethers V6 on the Moonbeam Chain
+# Particle Connect, Account Abstraction SDK, Next.js, & ethers V6 on the Arbitrum Chain
 
-⚡️ Basic demo application using `@particle-network/connectkit` and `@particle-network/aa` to initiate social login and send transactions via an account abstraction smart account on the [Moonbeam Chain](https://moonbeam.network/).
+⚡️ Basic demo application using `@particle-network/connectkit` and `@particle-network/aa` to initiate social login and send transactions via an account abstraction smart account on the [Arbitrum Chain](https://t.co/aEalRVdbm4).
 
 > Note that Account Abstraction is included within the new `connectkit` package. `@particle-network/aa` is required when using an EIP 1193 provider like ehter.js.
 
-This app allows you to log in using social logins and interact with Moonbeam by displaying account information and sending a gasless transfer transaction to an address you can input in the UI.
+This app allows you to log in using social logins and interact with Arbitrum by displaying account information and sending a gasless transfer transaction to an address you can input in the UI.
 
 Built using:
 
@@ -37,9 +37,9 @@ Particle Network natively supports and facilitates the end-to-end utilization of
 
 👉 Learn more about the [Particle AA SDK](https://developers.particle.network/docs/aa-web-quickstart).
 
-## What is Moonbeam
+## What is Arbitrum
 
-Moonbeam is an Ethereum-compatible smart contract platform on Polkadot, allowing interaction through both the Ethereum and Substrate APIs. It uses a unified account system that adopts Ethereum-style accounts. Developers can easily build on Moonbeam using familiar Ethereum libraries and tools by adding Moonbeam's network configurations.
+Arbitrum is a scaling solution for Ethereum, designed to improve transaction speed and reduce fees while maintaining a high level of security through Ethereum’s infrastructure. Arbitrum leverages roll-up technology, where multiple transactions are bundled off-chain and then submitted to the Ethereum blockchain in a compressed format.
 
 ***
 
@@ -49,7 +49,7 @@ Moonbeam is an Ethereum-compatible smart contract platform on Polkadot, allowing
 
 ### Clone this repository
 ```
-git clone https://github.com/Particle-Network/connect-moonbeam-tutorial
+git clone https://github.com/Particle-Network/connect-arbitrum-tutorial
 ```
 
 ### Install dependencies
@@ -69,6 +69,7 @@ This project requires several keys from Particle Network to be defined in `.env`
 - `NEXT_PUBLIC_PROJECT_ID`, the ID of the corresponding application in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
 - `NEXT_PUBLIC_CLIENT_KEY`, the ID of the corresponding project in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
 - `NEXT_PUBLIC_APP_ID`, the client key of the corresponding project in your [Particle Network dashboard](https://dashboard.particle.network/#/applications).
+- `NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID='WALLETCONNECT_PROJECT_ID`, retrieved from https://cloud.walletconnect.com
 
 ### Start the project
 ```sh
